@@ -35,3 +35,25 @@ Something I find really frustrating in GIMP is that by default, layers don't sna
 
 - **Edit > Preferences > Image Windows > Snapping**
 - Select "Snap to Grid" and "Snap to Canvas Edges" for both modes.
+
+### Disable "Show Layer Boundary" by Default
+
+Something I never got used to in GIMP is the yellow and black dotted line that surrounds the active layer. Though it can be helpful at times, I definitely prefer to have it disabled by default.
+
+1. From the main menu, navigate to **Edit > Preferences > Image Windows > Appearance**
+
+2. Uncheck "Show Layer Boundary" for the modes you like.
+
+3. Restart GIMP to for the changes to take effect
+
+You can always temporarily turn it back on by clicking on View in the main menu and choosing Show Layer Boundary.
+
+----------------------------
+Much of this guide was taken from these sources:
+
+- https://lifehacker.com/how-to-make-the-gimp-work-more-like-photoshop-1551318983
+- https://github.com/cttynul/gimpshop-reloaded
+- http://epierce.freeshell.org/gimp/gimp_ps.php
+- http://gimpchat.com/viewtopic.php?f=9&t=4424
+
+
