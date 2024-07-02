@@ -5,10 +5,16 @@
 # Plug-in:      Layer via Copy/Cut
 # Version:      1.6
 # Date:         09.01.2014
+                02.07.2024 - tested with GIMP 2.10.38
 # Copyright:    Dmitry Dubyaga <dmitry.dubyaga@gmail.com>
 # Website:      some-gimp-plugins.com
-# Tested with:  GIMP 2.8
+# Tested with:  GIMP 2.8 - 2.10
 
+# Note: you need to copy this to your plug-ins folder.
+#       For Flatpak, look here:
+#         ~/.var/app/org.gimp.GIMP/config/GIMP/2.10/plug-ins/
+#       Then make sure it is executable.
+# No changed were made to this other than testing and these comments.
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
