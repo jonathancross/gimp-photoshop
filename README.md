@@ -44,13 +44,30 @@ Something I never got used to in GIMP is the yellow and black dotted line that s
 
 2. Uncheck "Show Layer Boundary" for the modes you like.
 
-3. Restart GIMP to for the changes to take effect
+3. Restart GIMP
 
-You can always temporarily turn it back on by clicking on View in the main menu and choosing Show Layer Boundary.
+You can always temporarily turn it back on by clicking on View in the main menu and choosing **Show Layer Boundary**.
+
+
+### Make the Move Tool Function Like Photoshop's
+
+By default, the Move Tool in GIMP is set to Pick a Layer or Guide. With this option set, it behaves a bit more like Inkscape or Illustrator because you can also move things that are not on the current layer (like the background). If you are a long time Photoshop user, this is very strange.
+
+To make it function like Photoshop, you can set the default behavior to Move the Active Layer.
+
+1. Select the **Move Tool** from the Tool Box in the left panel
+
+2. In the **Tool Options** dialogue box check **Move the Active Layer**
+
+3. From the main menu navigate to **Edit > Preferences > Tool Options > Save Tool Options Now**
+
+4. Restart GIMP
 
 ----------------------------
+
 Much of this guide was taken from these sources:
 
+- https://www.linuxuprising.com/2018/11/configure-gimp-210-to-use-photoshop.html
 - https://lifehacker.com/how-to-make-the-gimp-work-more-like-photoshop-1551318983
 - https://github.com/cttynul/gimpshop-reloaded
 - http://epierce.freeshell.org/gimp/gimp_ps.php
