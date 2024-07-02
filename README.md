@@ -8,7 +8,7 @@ Plugin to recreate Photoshop's `<control> j` functionality.
 #### Installation:
 
 1. Copy `plug-ins/layer-via-copy-cut.py` to your plug-ins folder.
-  - For Flatpak, look here:
+   - For Flatpak, look here:
    `~/.var/app/org.gimp.GIMP/config/GIMP/2.10/plug-ins/`
 
 2. Make it executable.
@@ -28,3 +28,10 @@ Plugin to recreate Photoshop's `<control> j` functionality.
 - http://epierce.freeshell.org/gimp/gimp_ps.php
 - Here is a clone of the [menurc](menurc) file (in case the link above dies).
 
+
+### Make "Snap to Canvas Edge" the Default
+
+Something I find really frustrating in GIMP is that by default, layers don't snap to the edge of the canvas (or the grid) when I move them. Even worse, you have to enable it every single time you open an image.
+
+- **Edit > Preferences > Image Windows > Snapping**
+- Select "Snap to Grid" and "Snap to Canvas Edges" for both modes.
