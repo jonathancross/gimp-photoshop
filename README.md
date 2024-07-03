@@ -63,6 +63,16 @@ To make it function like Photoshop, you can set the default behavior to Move the
 
 4. Restart GIMP
 
+### Paste as new layer
+
+In GIMP, pasting into an image creates some strange floating layer thing that then needs to be converted to a layer.
+
+You can reassign `<control> v` to Edit > **Paste As > New Layer**
+
+----------------------------
+
+TODO: Add specific configuration file setting for items above.
+
 ----------------------------
 
 Much of this guide was taken from these sources:
